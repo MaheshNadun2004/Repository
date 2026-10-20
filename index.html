@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Website Favicon -->
+<!-- Circular Cybersecurity Favicon -->
+<link rel="icon" type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%230a0e17' stroke='%2300d4ff' stroke-width='5'/%3E%3Ctext x='50' y='67' font-size='52' font-family='Arial,sans-serif' font-weight='bold' text-anchor='middle' fill='%2300d4ff'%3EM%3C/text%3E%3C/svg%3E">
+
+<title>Mahesh Nadun </title>
+    <meta name="description" content="Cybersecurity Specialist | Ethical Hacker | Penetration Tester | Security Researcher">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <canvas id="matrix-bg"></canvas>
+    
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-dot"></span>
+                <span id="scramble-text" class="scramble-text" style="font-size: 25px;">MAHESH NADUN</span>
+            </a>
+            
+            <ul class="nav-links" data-aos="fade-up">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#certifications">CERTIFICATIONS</a></li>
+                <li><a href="#Ivents">Ivents</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up">
+                <span class="hero-badge">CYBERSECURITY STUDENT</span>
+                <h1>SECURING DIGITAL FRONTIERS</h1>
+                <p class="hero-subtitle">
+                    Ethical Hacker | Penetration Tester | Security Researcher<br>
+                    Aspiring cybersecurity professional dedicated to discovering vulnerabilities, 
+                    strengthening system security, and developing resilient defenses against 
+                    modern cyber threats
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                </div>
+                
+                <div class="hero-btns">
+                    <a href="#" class="btn btn-primary">
+                        <i class="fas fa-shield-alt"></i> View CV
+                    </a>
+                    <a href="#" class="btn btn-outline">
+                        <i class="fas fa-terminal"></i> Download CV
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-image" data-aos="fade-up">
+                <div class="profile-container">
+                    <div class="profile-frame">
+                        <img src="My1.jpg" alt="Mahesh Nadun - Cybersecurity Specialist" class="profile-image" onerror="this.src='https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1000'">
+                        <div class="profile-overlay"></div>
+                        <div class="scan-line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- About Section -->
+    <section class="section" id="about" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title" id="about-title">ABOUT ME</h2>
+            <p class="section-subtitle" data-aos="fade-up">Cybersecurity enthusiast with a passion for protecting 
+                digital assets and uncovering security vulnerabilities.</p>
+            <div class="about-content" data-aos="fade-up">
+                <div class="about-text">
+                    <p>I'm <span class="cyber-highlight">Mahesh Nadun</span>, a BICT undergraduate 
+                        at the University of Vavuniya. I am strong interest in 
+                        Cybersecurity, Ethical Hacking, and Network Security.</p>
+
+                    <p>My journey into cybersecurity began during my academic 
+                        studies, where I developed a deep curiosity about security protocols, 
+                        network defense mechanisms, and ethical hacking methodologies.</p>
+
+                    <p>I like learning how systems work, identifying 
+                        potential security weaknesses, and exploring ways to 
+                        strengthen digital infrastructures against modern cyber threats.</p>
+
+                    <p>My goal is to build practical skills in penetration testing, 
+                        vulnerability assessment, and security research while contributing
+                        to creating safer and more secure digital environments.</p>
+                </div>
+                
+               <div class="about-animation" data-aos="fade-left">
+                    <div class="hacker-screen">
+                        <div class="terminal-header">
+                            <span class="terminal-dot red"></span>
+                            <span class="terminal-dot yellow"></span>
+                            <span class="terminal-dot green"></span>
+                            <span class="terminal-title">root@cybersecurity:~</span>
+                        </div>
+                        <div class="terminal-body">
+                            <p><span class="prompt">root@kali:~$</span> nmap -sV target</p>
+                            <p class="code-line">Initializing network scan...</p>
+                            <p class="code-line">Scanning ports <span>80, 443, 22</span></p>
+                            <p class="success">[+] SSH Port: Open</p>
+                            <p class="success">[+] HTTP Port: Open</p>
+                            <p class="success">[+] HTTPS Port: Open</p>
+                            <p class="code-line">Analyzing vulnerabilities...</p>
+                            <p class="typing-text">System security: <span>Analyzing...</span></p>
+                            <p><span class="prompt">root@kali:~$</span> <span class="cursor">_</span></p>
+                        </div>
+                        <div class="cyber-icon">
+                        <i class="fas fa-user-secret"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Skills Section -->
+    <section class="section" id="skills" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title" id="skills-title">CYBERSECURITY SKILLS</h2>
+            <p class="section-subtitle"data-aos="fade-up">Comprehensive expertise across multiple security domains</p>
+            
+            <div class="skills-container">
+                <div class="skills-grid">
+
+                    <!-- Tools & Technologies -->
+                    <div class="skill-category" data-aos="fade-up">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h3>TOOLS & TECHNOLOGIES</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <span>Kali Linux </span>
+                                <div class="skill-level">
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot "></span>
+                                    <span class="level-dot "></span>
+                                    <span class="level-dot "></span>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <span> Nmap</span>
+                                <div class="skill-level">
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot "></span>
+                                    <span class="level-dot "></span>
+                                    <span class="level-dot "></span>
+                                    <span class="level-dot "></span>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <span>Wireshark</span>
+                                <div class="skill-level">
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot "></span>
+                                    <span class="level-dot "></span>
+                                    <span class="level-dot "></span>
+                                    <span class="level-dot"></span>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <span>Metasploit</span>
+                                <div class="skill-level">
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot "></span>
+                                    <span class="level-dot "></span>
+                                    <span class="level-dot"></span>
+                                    <span class="level-dot"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Programming Languages -->
+                    <div class="skill-category programming" data-aos="fade-up">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <i class="fas fa-laptop-code"></i> 
+                            </div>
+                            <h3>PROGRAMMING LANGUAGES</h3>
+                        </div>
+                        <ul class="skill-list">
+                        <li class="skill-item">
+                            <span>Java</span>
+                            <div class="skill-level">
+                                <span class="level-dot active"></span>
+                                <span class="level-dot active"></span>
+                                <span class="level-dot active"></span>
+                                <span class="level-dot "></span>
+                                <span class="level-dot "></span>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <span>C</span>
+                            <div class="skill-level">
+                                <span class="level-dot active"></span>
+                                <span class="level-dot active"></span>
+                                <span class="level-dot active"></span>
+                                <span class="level-dot active"></span>
+                                <span class="level-dot "></span>
+                            </div>
+                        </li>
+
+                        <li class="skill-item">
+                            <span>C++</span>
+                                <div class="skill-level">
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot "></span>
+                                </div>
+                                    </li>
+                                    <li class="skill-item">
+                                        <span>Python</span>
+                                        <div class="skill-level">
+                                        <span class="level-dot active"></span>
+                                        <span class="level-dot active"></span>
+                                        <span class="level-dot active"></span>
+                                            <span class="level-dot "></span>
+                                        <span class="level-dot "></span>
+                                </div>
+                                </li>
+
+                        <li class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-level">
+                                <span class="level-dot active"></span>
+                                <span class="level-dot active"></span>
+                                <span class="level-dot active"></span>
+                                <span class="level-dot "></span>
+                                <span class="level-dot "></span>
+                            </div>
+                        </li>
+                            <li class="skill-item">
+                                <span>C#</span>
+                                <div class="skill-level">
+                                    <span class="level-dot active "></span>
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot "></span>
+                                    <span class="level-dot "></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ivents Section -->
+    <section class="section" id="Ivents" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title" id="skills-title">Ivents</h2>
+            <p class="section-subtitle"data-aos="fade-up">I am participate ivents</p>
+
+        </div>
+    </section>
+
+
+    <!-- TryHackMe Achievements -->
+    <section class="section" id="skills" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">TryHackMe Achievements</h2>
+            <p class="section-subtitle" data-aos="fade-up">My Cybersecurity Learning Journey, Completed Rooms & Badges.</p>
+
+            <!-- Completed Rooms -->
+            <div class="thm-heading" data-aos="fade-up">
+                <h3><i class="fas fa-flag-checkered"></i> Completed Rooms ( +10 )</h3>
+            </div>
+
+            <div class="certs-wrapper">
+
+                <div class="certs-grid">
+                    <div class="certs-grid"data-aos="fade-up">
+                        <div class="thm-rooms">
+
+                            <div class="thm-card" data-aos="fade-up">
+                                <div class="thm-image">
+                                    <img src="Linux_Fundamentals_(Pt1).jpg"alt="Linux Fundamentals (Pt1)">
+                                </div>
+                                <h4>Linux Fundamentals (Pt1)</h4>
+                                <p>Embark on the journey of learning the fundamentals of Linux. Learn to run some of the first essential commands on an interactive terminal.</p>
+                                <span class="thm-status">
+                                    <i class="fas fa-check-circle"></i> Completed
+                                </span>
+                            </div>
+
+                            <div class="thm-card" data-aos="fade-up">
+                                <div class="thm-image">
+                                    <img src="Windows_Fundamentals_1.jpg"alt="Windows Fundamentals 1">
+                                </div>
+                                <h4>Windows Fundamentals 1</h4>
+                                <p>In part 1 of the Windows Fundamentals module, we'll start our journey learning about the Windows desktop, the NTFS file system, UAC, the Control Panel, and more..</p>
+                                <span class="thm-status">
+                                    <i class="fas fa-check-circle"></i> Completed
+                                </span>
+                            </div>
+
+                            <div class="thm-card" data-aos="fade-up">
+                                <div class="thm-image">
+                                    <img src="Windows_Fundamentals_2.jpg"alt="Windows Fundamentals 2">
+                                </div>
+                                <h4>Windows Fundamentals 2</h4>
+                                <p>In part 2 of the Windows Fundamentals module, discover more about System Configuration, UAC Settings, Resource Monitoring, the Windows Registry and more..</p>
+                                <span class="thm-status">
+                                    <i class="fas fa-check-circle"></i> Completed
+                                </span>
+                            </div>
+
+                            <div class="thm-card" data-aos="fade-up">
+                                <div class="thm-image">
+                                    <img src="Offensive Security Intro.jpg"alt="Windows Fundamentals 2">
+                                </div>
+                                <h4>Offensive Security Intro</h4>
+                                <p>IIntroducing offensive security, where you will test the security of FakeBank's systems.</p>
+                                <span class="thm-status">
+                                    <i class="fas fa-check-circle"></i> Completed
+                                </span>
+                            </div>
+
+
+                            <div class="thm-card" data-aos="fade-up">
+                                <div class="thm-image">
+                                    <img src="Search Skills.jpg"alt="Windows Fundamentals 2">
+                                </div>
+                                <h4>Search Skills</h4>
+                                <p>Learn to efficiently search the Internet and use specialised services and technical docs for information</p>
+                                <span class="thm-status">
+                                    <i class="fas fa-check-circle"></i> Completed
+                                </span>
+                            </div>
+
+                             <div class="thm-card" data-aos="fade-up">
+                                <div class="thm-image">
+                                    <img src="Offensive Security Intro02.jpg"alt="Windows Fundamentals 2">
+                                </div>
+                                <h4>Offensive Security Intro</h4>
+                                <p>Introducing offensive security, where you will test the security of FakeBank's systems.</p>
+                                <span class="thm-status">
+                                    <i class="fas fa-check-circle"></i> Completed
+                                </span>
+                            </div>
+
+                            <div class="thm-card" data-aos="fade-up">
+                                <div class="thm-image">
+                                    <img src="Defensive Security Intro.jpg"alt="Windows Fundamentals 2">
+                                </div>
+                                <h4> Defensive Security Intro</h4>
+                                <p>Introducing defensive security, where you will investigate an ongoing attack at FakeBank</p>
+                                <span class="thm-status">
+                                    <i class="fas fa-check-circle"></i> Completed
+                                </span>
+                            </div>
+
+                            <div class="thm-card" data-aos="fade-up">
+                                <div class="thm-image">
+                                    <img src="The Brochure.jpg"alt="Windows Fundamentals 2">
+                                </div>
+                                <h4>The Brochure</h4>
+                                <p>The brochure's hero photo has an AI fingerprint. Follow the account that posted it, and the trail doesn't end at the hotel; it ends at someone the hotel never mentioned.</p>
+                                <span class="thm-status">
+                                    <i class="fas fa-check-circle"></i> Completed
+                                </span>
+                            </div>
+
+                            <div class="thm-card" data-aos="fade-up">
+                                <div class="thm-image">
+                                    <img src="The Concierge Knows Too Much.jpg"alt="Windows Fundamentals 2">
+                                </div>
+                                <h4>The Concierge Knows Too Much</h4>
+                                <p>She knows your name, your room, your coffee order, none of which you told her. Word your next question carefully and she'll also hand over the instructions she was told to keep to herself.</p>
+                                <span class="thm-status">
+                                    <i class="fas fa-check-circle"></i> Completed
+                                </span>
+                            </div>
+
+                            <div class="thm-card" data-aos="fade-up">
+                                <div class="thm-image">
+                                    <img src="Windows Command Line.jpg"alt="Windows Fundamentals 2">
+                                </div>
+                                <h4>Windows Command Line</h4>
+                                <p>Learn the essential Windows commands.</p>
+                                <span class="thm-status">
+                                    <i class="fas fa-check-circle"></i> Completed
+                                </span>
+                            </div>
+
+                            <div class="thm-card" data-aos="fade-up">
+                                <div class="thm-image">
+                                    <img src="Networking Concepts.jpg"alt="Windows Fundamentals 2">
+                                </div>
+                                <h4>Networking Concepts</h4>
+                                <p>Learn about the ISO OSI model and the TCP/IP protocol suite.</p>
+                                <span class="thm-status">
+                                    <i class="fas fa-check-circle"></i> Completed
+                                </span>
+                            </div>
+
+                            <div class="thm-card" data-aos="fade-up">
+                                <div class="thm-image">
+                                    <img src="Cryptography Basics.jpg"alt="Windows Fundamentals 2">
+                                </div>
+                                <h4>Cryptography Basics</h4>
+                                <p>Learn the basics of cryptography and symmetric encryption.</p>
+                                <span class="thm-status">
+                                    <i class="fas fa-check-circle"></i> Completed
+                                </span>
+                            </div>
+
+                             <div class="thm-card" data-aos="fade-up">
+                                <div class="thm-image">
+                                    <img src="Web Application Basics.jpg"alt="Windows Fundamentals 2">
+                                </div>
+                                <h4>Web Application Basics</h4>
+                                <p>Learn the basics of web applications: HTTP, URLs, request methods, response codes, and headers.</p>
+                                <span class="thm-status">
+                                    <i class="fas fa-check-circle"></i> Completed
+                                </span>
+                            </div>
+
+                           
+                        </div> 
+                    </div> 
+                </div>
+            </div>
+            
+        <!-- Badges -->  
+            <div class="thm-heading thm-badge-heading" data-aos="fade-up">
+                <h3><i class="fas fa-award"></i> Earned Badges</h3>
+            </div>
+
+            <div class="certs-wrapper">
+                <div class="certs-grid">
+                    <div class="thm-badges">
+
+                        <div class="thm-badge-card" data-aos="zoom-in">
+                            <a href="https://tryhackme.com/mahesh.nandun2220/badges/terminaled?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6915fd80bc399e7d3fdd7d91" target="_blank" rel="noopener noreferrer" class="thm-badge-link">
+
+                            <div class="thm-badge-image">
+                                <img src="cat_linux_txt.jpg" alt="TryHackMe Learning Badge">
+                            </div>
+                            <h4>cat linux.txt</h4>
+                            <p>Being competent in Linux</p>
+                            <span class="thm-view-badge">
+                                <i class="fas fa-external-link-alt"></i>
+                            </span>
+                            </a>
+                        </div>
+
+                        <div class="thm-badge-card" data-aos="zoom-in">
+                            <a href="https://tryhackme.com/mahesh.nandun2220/badges/3-day-streak?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6915fd80bc399e7d3fdd7d91" target="_blank" rel="noopener noreferrer" class="thm-badge-link">
+                            <div class="thm-badge-image">
+                                <img src="3_Day_Streak.jpg" alt="TryHackMe Streak Badge">
+                            </div>
+
+                            <h4>3 Day Streak</h4>
+                            <p>Achieving a 3 day hacking streak</p>
+                             <span class="thm-view-badge">
+                                <i class="fas fa-external-link-alt"></i>
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        <!-- TryHackMe Profile -->
+                <div class="thm-profile" data-aos="fade-up">
+                    <p>Explore my cybersecurity learning progress on TryHackMe.</p>
+                    <a href="https://tryhackme.com/p/mahesh.nandun2220"target="_blank" rel="noopener noreferrer" class="thm-profile-btn">
+                    <i class="fas fa-external-link-alt"></i> View TryHackMe Profile</a>
+                </div>
+
+            </div>
+    </section>
+
+
+   
+<!-- Certifications Section -->
+<section class="section" id="certifications" data-aos="fade-up">
+    <div class="container">
+
+        <h2 class="section-title" id="certifications-title">CERTIFICATIONS
+        </h2>
+
+        <p class="section-subtitle">
+            Industry-recognized credentials validating my cybersecurity expertise
+        </p>
+
+        <div class="certs-wrapper" id="certs-wrapper">
+            <div class="certs-grid" id="certs-grid">
+
+                <a href="Networking_Basics_certificate-cisco.html" class="cert-link">
+                    <div class="cert-card">
+                        <span class="cert-badge">CISCO</span>
+                        <h3>Networking Basics</h3>
+                        <div class="thm-image">
+                            <img src="project01.jpg" alt="Networking Basics Certificate">
+                        </div>
+                        <div class="cert-footer">
+                            <span>2026</span>
+                            <span>VIEW CERTIFICATE ↗</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="IntroductiontoCyberSecurity.html" class="cert-link">
+                    <div class="cert-card">
+                        <span class="cert-badge">SIMPLILEARN</span>
+                        <h3>Introduction to Cyber Security</h3>
+                        <p>Completed: Introduction to Cyber Security.</p>
+                        <div class="cert-footer">
+                            <span>2025</span>
+                            <span>VIEW CERTIFICATE ↗</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="WebDesignforBeginnersE-Certificate.html" class="cert-link">
+                    <div class="cert-card">
+                        <span class="cert-badge">UNIVERSITY OF MORATUWA</span>
+                        <h3>Web Design for Beginners</h3>
+                        <p>Completed: Web Design for Beginners.</p>
+                        <div class="cert-footer">
+                            <span>2025</span>
+                            <span>VIEW CERTIFICATE ↗</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="PythonforBeginnersE-Certificate.html" class="cert-link">
+                    <div class="cert-card">
+                        <span class="cert-badge">UNIVERSITY OF MORATUWA</span>
+                        <h3>Python for Beginners</h3>
+                        <p>Completed: Python for Beginners.</p>
+                        <div class="cert-footer">
+                            <span>2025</span>
+                            <span>VIEW CERTIFICATE ↗</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="PythonProgrammingE-Certificate.html" class="cert-link">
+                    <div class="cert-card">
+                        <span class="cert-badge">UNIVERSITY OF MORATUWA</span>
+                        <h3>Python Programming</h3>
+                        <p>Completed: Python Programming.</p>
+                        <div class="cert-footer">
+                            <span>2025</span>
+                            <span>VIEW CERTIFICATE ↗</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="FrontEndWebDevelopmentE-Certificate.html" class="cert-link">
+                    <div class="cert-card">
+                        <span class="cert-badge">UNIVERSITY OF MORATUWA</span>
+                        <h3>Front End Web Development</h3>
+                        <p>Completed: Front End Web Development.</p>
+                        <div class="cert-footer">
+                            <span>2025</span>
+                            <span>VIEW CERTIFICATE ↗</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="IntroductiontoSoftwareQualityAssuranceE-Certificate.html" class="cert-link">
+                    <div class="cert-card">
+                        <span class="cert-badge">UNIVERSITY OF MORATUWA</span>
+                        <h3>Introduction to Software Quality Assurance</h3>
+                        <p>Completed: Introduction to Software Quality Assurance.</p>
+                        <div class="cert-footer">
+                            <span>2025</span>
+                            <span>VIEW CERTIFICATE ↗</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+      
+    </div>
+</section>
+
+
+
+<!-- Security Projects Section -->
+<section class="section" id="projects">
+    <div class="container">
+
+        <h2 class="section-title">Security Projects</h2>
+
+        <p class="section-subtitle">
+            My Cybersecurity Projects and Practical Labs
+        </p>
+
+        <div class="projects-slider" id="projectsSlider">
+            <div class="projects-track" id="projectsTrack">
+
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="project01.jpg" alt="EduLibrary Website">
+                    </div>
+                    <span class="project-category">Web Development</span>
+                    <h3>EduLibrary</h3>
+                    <p>
+                        An educational library website developed
+                        to provide useful learning resources.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <a href="https://maheshnadun2004.github.io/EduLibrary/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="btn btn-outline">
+                        View Project ↗
+                    </a>
+                </article>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title" id="contact-title">CONTACT</h2>
+            <p class="section-subtitle" data-aos="fade-up">Ready to discuss security challenges? Get in touch</p>
+            
+            <div class="contact-container" data-aos="fade-up">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    
+                    <div class="contact-item" data-aos="fade-up">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p style="color: var(--cyber-gray);">maheshNadun2004@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item" data-aos="fade-up">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p style="color: var(--cyber-gray);">+94 70 34 44 282</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item" data-aos="fade-up">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p style="color: var(--cyber-gray);">Anuradhapura, Sri Lanka</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links" data-aos="fade-up">
+                        <a href="https://github.com/MaheshNadun2004" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/Mahesh-nadun" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://twitter.com" class="social-link" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://tryhackme.com" class="social-link" target="_blank">
+                            <i class="fas fa-shield-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-up">
+                    <form id="contactForm">
+                        <div class="form-group" data-aos="fade-up">
+                            <label class="form-label" for="name">NAME</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group"data-aos="fade-up">
+                            <label class="form-label" for="email">EMAIL</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group" data-aos="fade-up">
+                            <label class="form-label" for="subject">SUBJECT</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group" data-aos="fade-up">
+                            <label class="form-label" for="message">MESSAGE</label>
+                            <textarea id="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;" data-aos="fade-up">
+                            <i class="fas fa-paper-plane"></i> SEND MESSAGE
+                        </button>
+                        
+                        <p id="formStatus" style="margin-top: 1rem; text-align: center; color: var(--cyber-gray); font-family: var(--font-mono);"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Footer -->
+    <footer class="footer" data-aos="fade-up">
+        <div class="footer-content">
+            <div data-aos="fade-up">
+                <h3 style="color: var(--cyber-blue); margin-bottom: 1rem;">Mahesh Nadun...</h3>
+                <p style="color: var(--cyber-gray); max-width: 300px;">
+                    CYBERSECURITY STUDENT<br>
+                    Securing digital assets through ethical hacking and proactive cybersecurity practices
+                </p>
+            </div>
+            
+            <div data-aos="fade-up">
+                <h4 style="color: var(--cyber-light); margin-bottom: 1rem;">QUICK LINKS</h4>
+                <ul style="list-style: none;">
+                    <li style="margin-bottom: 0.5rem;">
+                        <a href="#home" style="color: var(--cyber-gray); text-decoration: none; font-family: var(--font-mono); font-size: 0.9rem;">
+                            > HOME
+                        </a>
+                    </li>
+                    <li style="margin-bottom: 0.5rem;">
+                        <a href="#about" style="color: var(--cyber-gray); text-decoration: none; font-family: var(--font-mono); font-size: 0.9rem;">
+                            > ABOUT
+                        </a>
+                    </li>
+                    <li style="margin-bottom: 0.5rem;">
+                        <a href="#projects" style="color: var(--cyber-gray); text-decoration: none; font-family: var(--font-mono); font-size: 0.9rem;">
+                            > PROJECTS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" style="color: var(--cyber-gray); text-decoration: none; font-family: var(--font-mono); font-size: 0.9rem;">
+                            > CONTACT
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div data-aos="fade-up">
+                <h4 style="color: var(--cyber-light); margin-bottom: 1rem;">SECURITY RESOURCES</h4>
+                <ul style="list-style: none;">
+                    <li style="margin-bottom: 0.5rem;">
+                        <a href="https://owasp.org" target="_blank" style="color: var(--cyber-gray); text-decoration: none; font-family: var(--font-mono); font-size: 0.9rem;">
+                            > OWASP
+                        </a>
+                    </li>
+                    <li style="margin-bottom: 0.5rem;">
+                        <a href="https://nist.gov" target="_blank" style="color: var(--cyber-gray); text-decoration: none; font-family: var(--font-mono); font-size: 0.9rem;">
+                            > NIST FRAMEWORK
+                        </a>
+                    </li>
+                    <li style="margin-bottom: 0.5rem;">
+                        <a href="https://cisecurity.org" target="_blank" style="color: var(--cyber-gray); text-decoration: none; font-family: var(--font-mono); font-size: 0.9rem;">
+                            > CIS CONTROLS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://sans.org" target="_blank" style="color: var(--cyber-gray); text-decoration: none; font-family: var(--font-mono); font-size: 0.9rem;">
+                            > SANS INSTITUTE
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright" >
+            <p>© 2026 Mahesh Nadun | Cybersecurity Student. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true
+    });
+</script>
+    <script src="script.js"></script>
+</body>
+</html>
