@@ -112,9 +112,9 @@ function observeSkillsSection() {
 function terminalAnimation() {
     const commands = [
         '> scanning network...',
-        '> vulnerability assessment in progress...',
-        '> penetration testing initiated...',
-        '> security protocols verified ✓'
+        '> I am Mahesh Nadun...',
+        '> University of Vavuniya...',
+        '> Aspiring to become a cybersecurity engineer '
     ];
     const terminalDiv = document.createElement('div');
     terminalDiv.style.cssText = `
